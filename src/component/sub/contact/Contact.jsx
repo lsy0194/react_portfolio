@@ -4,7 +4,7 @@ import clsx from 'clsx';
 
 export default function Contact() {
 	return (
-		<Layout title={'Contact'} className={styles.contact}>
+		<Layout title={'Contact'} styleName={styles.contact}>
 			<p>컨택트 페이지입니다.</p>
 		</Layout>
 	);
