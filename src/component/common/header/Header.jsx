@@ -11,19 +11,29 @@ export default function header() {
 
 			<ul>
 				<li>
-					<NavLink to='/department'>Department</NavLink>
+					<NavLink to='/department' activeClassName={styles.active}>
+						Department
+					</NavLink>
 				</li>
 				<li>
-					<NavLink to='/gallery'>Gallery</NavLink>
+					<NavLink to='/gallery' activeClassName={styles.active}>
+						Gallery
+					</NavLink>
 				</li>
 				<li>
-					<NavLink to='/youtube'>Youtube</NavLink>
+					<NavLink to='/youtube' activeClassName={styles.active}>
+						Youtube
+					</NavLink>
 				</li>
 				<li>
-					<NavLink to='/member'>Member</NavLink>
+					<NavLink to='/member' activeClassName={styles.active}>
+						Member
+					</NavLink>
 				</li>
 				<li>
-					<NavLink to='/contact'>Contact</NavLink>
+					<NavLink to='/contact' activeClassName={styles.active}>
+						Contact
+					</NavLink>
 				</li>
 			</ul>
 		</header>

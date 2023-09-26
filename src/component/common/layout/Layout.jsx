@@ -1,9 +1,9 @@
 import styles from './Layout.module.scss';
 import clsx from 'clsx';
 
-export default function Layout({ title, children }) {
+export default function Layout({ title, children, className }) {
 	return (
-		<section className={clsx(styles.Layout)}>
+		<section className={clsx(styles.Layout, className)}>
 			<figure></figure>
 			<div className={clsx(styles.content)}>
 				<h1>{title}</h1>
