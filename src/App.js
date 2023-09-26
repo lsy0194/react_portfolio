@@ -1,9 +1,11 @@
 import Header from './component/common/header/Header';
-import Global from './styles/Global.scss';
+import './styles/Global.scss';
+import Department from './component/sub/department/Department';
 function App() {
 	return (
 		<>
 			<Header />
+			<Department />
 		</>
 	);
 }
